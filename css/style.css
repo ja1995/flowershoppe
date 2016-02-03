@@ -1,15 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
 body {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/tile.jpg)
 }
 
 h1 {
+    font-size: 50px;
+    color: #850bde;
     margin: 0;
+    font-family: 'Pacifico', cursive;
+}
+
+h3 {
+    margin: -20px;
+    color: #850bde;
+    font-family: 'Pacifico', cursive;
 }
 
 #wrapper {
     max-width: 640px;
     margin: 0 auto;
-    background-color: aqua;
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
 header {
@@ -18,27 +32,37 @@ header {
 }
 
 nav {
+    width: 96%;
+    height: 10px;
+    background-color: black;
+    color: white;
+    margin: 2.5% 0 2.5% 0;
+    padding: 0 2% 2% 2%;
+}
+
+article {
     width: 85%;
     float: left;
-    background-color: blueviolet;
-    color: orange;
+    background-color: #ffdb78;
     padding: 5%;
     margin: 0% 2.5% 0% 2.5% ;
+    display: inline-block;
 }
 
 section {
     width: 85%;
     float: left;
-    background-color: fuchsia;
+    background-color: #ff72c9;
     padding: 5%;
     margin: 2.5%;
 }
 
 footer {
     width: 90%;
-    height: 100px;
+    height: 30px;
     clear: both;
-    background-color: bisque;
+    background-color: black;
+    color: white;
     padding: 5%
 }
 
@@ -46,7 +70,7 @@ footer {
     #wrapper {
         max-width: 960px;
     }
-    nav {
+    article {
         width: 22%;
     }
     section {
