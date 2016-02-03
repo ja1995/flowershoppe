@@ -20,6 +20,15 @@ h3 {
     font-family: 'Pacifico', cursive;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: aquamarine;
+}
+
 #wrapper {
     max-width: 640px;
     margin: 0 auto;
